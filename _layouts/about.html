@@ -10,11 +10,10 @@ layout: default
 
     <br>
     <p><b>Executive Contributors</b></p>
-    <br>
-        
-        {%- for exrs in site.data.executive_contributors -%}
-              <p> {{exrs.name }} </p>  
-        {%- endfor -%}
+      
+    {%- for exrs in site.data.executive_contributors -%}
+         <p> {{exrs.name }} </p>  
+    {%- endfor -%}
    
   {%- endif -%}
 
