@@ -8,12 +8,15 @@ layout: default
   
   {%- if site.data.executive_contributors.size > 0 -%}
 
+    
     <br>
     <p><b>Executive Contributors</b></p>
-      
-    {%- for exrs in site.data.executive_contributors -%}
-         <p> {{exrs.name }} </p>  
-    {%- endfor -%}
+    
+    <div class="flex-container">  
+      {%- for exrs in site.data.executive_contributors -%}
+         {{exrs.name }}   
+      {%- endfor -%}
+    </div>  
    
   {%- endif -%}
 
