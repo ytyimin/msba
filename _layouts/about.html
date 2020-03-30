@@ -22,4 +22,20 @@ layout: default
    
   {%- endif -%}
 
+  {%- if site.data.staff_contributors.size > 0 -%}
+
+    
+    <br>
+    <p><b>Staff Contributors</b></p>
+    
+    <div class="flex-container">  
+      
+      {%- for exrs in site.data.staff_contributors -%}
+         &#9642;  &nbsp {{exrs.name }} 
+      {%- endfor -%}
+      &#9642;  &nbsp
+    </div>  
+   
+  {%- endif -%}
+
 </div>
