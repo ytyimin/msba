@@ -1,4 +1,4 @@
-name,role
-Athira Praveen,executive
-Ramesh Alla,executive
-Tiffany Chao,executive
+﻿firstName,lastName,name,role
+Ramesh,Alla,Ramesh Alla,executive
+Tiffany,Chao,Tiffany Chao,executive
+Athira,Praveen,Athira Praveen,executive
