@@ -12,14 +12,10 @@ layout: default
     <p><b>Executive Contributors</b></p>
     <br>
         
-        <div class="flex-container">
         {%- for exrs in site.data.executive_contributors -%}
-              <p> {{exrs.name }}</p>  
+              <p> {{exrs.name }} </p>  
         {%- endfor -%}
-        
-      </div>
-  
+   
   {%- endif -%}
-
 
 </div>
