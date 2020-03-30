@@ -8,9 +8,9 @@ title: About
 
 # Acknowledgement 
 
-The basic example problem sets were originally developed by Athira Praveen and Ramesh Alla. The development is partially funded by the Department of Supply Chain Management, W. P. Carey School of Business at Arizona State University.
+The basic example problem sets are developed by executive and staff contributors acknowledgd below. The advanced problem sets were selected from past student projects for Masters in Business Analytics course at Arizona State University. 
 
-The advanced problem sets were selected from past student projects for SCM518 course. 
+This project is partially funded by the Department of Supply Chain Management, W. P. Carey School of Business at Arizona State University.
 
 All opinions and solutions provided are solely the authors, and are not reflective of official department or school positions. If you notice any errors or would like to contribute, please contact me at <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>.
 
